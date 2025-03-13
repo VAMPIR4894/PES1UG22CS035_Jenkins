@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './output'  // Run the compiled binary
+                    sh './abc'  // Run the compiled binary
                 }
             }
         }
